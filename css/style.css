@@ -1,0 +1,21 @@
+.container div.cols {
+    position: relative;
+    opacity: 70%;
+    background: transparent;
+    z-index: -1;
+}
+
+.container div.cols h2 {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: 2;
+}
+
+.container div.cols:hover:nth-child(even) {
+    content: url("../images/1.jpg");
+}
+
+.container div.cols:hover:nth-child(odd)  {
+    content: url("../images/2.jpg");
+}
